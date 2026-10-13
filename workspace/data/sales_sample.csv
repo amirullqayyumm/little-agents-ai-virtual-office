@@ -1,0 +1,13 @@
+region,month,sales_myr,agents
+Central,August,125000,32
+Northern,August,92000,24
+Southern,August,84000,21
+East Coast,August,65000,18
+Central,September,138000,35
+Northern,September,101000,25
+Southern,September,79500,20
+East Coast,September,72200,19
+Central,October,141000,36
+Northern,October,110000,28
+Southern,October,93000,23
+East Coast,October,76000,21

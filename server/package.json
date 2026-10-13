@@ -1,0 +1,16 @@
+{
+  "name": "ai-office-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}

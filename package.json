@@ -1,0 +1,13 @@
+{
+  "name": "ai-virtual-office",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c green,cyan \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "test": "node --test server/tests/*.test.js"
+  },
+  "devDependencies": { "concurrently": "^9.2.1" }
+}

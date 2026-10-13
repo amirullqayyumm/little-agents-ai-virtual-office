@@ -1,0 +1,13 @@
+LITTLE AGENTS — OLLAMA EDITION (8GB RAM) — NO API KEY
+
+Windows setup:
+1. Install Ollama from https://ollama.com/download/windows and open it.
+2. In a NEW PowerShell window: ollama pull qwen2.5:3b
+3. Open THIS project folder in VS Code.
+4. Terminal: npm install
+5. Terminal: npm run dev
+6. Visit http://127.0.0.1:5173
+7. Click Byte and test data/sales_sample.csv.
+
+Local Ollama only: no OpenAI API billing.
+For troubleshooting and details see README.md.
